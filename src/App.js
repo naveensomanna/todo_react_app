@@ -191,6 +191,7 @@ export default function App() {
 					</Container>
 				</div>
 			</MantineProvider>
+			<h1>Hello jenkins</h1>
 		</ColorSchemeProvider>
 	);
 }
