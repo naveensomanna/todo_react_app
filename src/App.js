@@ -16,7 +16,6 @@ import {
 	MantineProvider,
 	ColorSchemeProvider,
 } from '@mantine/core';
-import { useColorScheme } from '@mantine/hooks';
 import { useHotkeys, useLocalStorage } from '@mantine/hooks';
 
 export default function App() {
@@ -174,6 +173,7 @@ export default function App() {
 										</Card>
 									);
 								}
+								return null;
 							})
 						) : (
 							<Text size={'lg'} mt={'md'} color={'dimmed'}>
